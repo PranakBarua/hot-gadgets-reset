@@ -17,16 +17,19 @@
             <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#category">Category<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#smartphone">Smartphone<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#smartphone">Smartphone</a>
+                    <a class="nav-link" href="#category">Category</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#laptop">Laptop</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#overview">Overview</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#submit">Submit</a>
                   </li>
                   
               </ul>
@@ -86,7 +89,7 @@
             </a>
           </div>
     </div>
-    <div class="container">
+    <div class="container" id="smartphone">
       <div class="d-flex justify-content-between">
         <h3 class="title">Smartphone</h3>
         <h3 class="title-right">See All</h3>
@@ -127,7 +130,33 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="category">
+      <div class="d-flex justify-content-between">
+        <h3 class="title">Category</h3>
+        <h3 class="title-right">See All</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="cat1 d-flex justify-content-between align-items-center">
+            <h3>Bag</h3>
+            <img src="images/categories-first/bag.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cat2 d-flex justify-content-between align-items-center">
+            <h3>Watch</h3>
+            <img src="images/categories-first/watch.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cat3 d-flex justify-content-between align-items-center">
+            <h3>Shoes</h3>
+            <img src="images/categories-first/shoes.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" id="laptop">
       <div class="d-flex justify-content-between">
         <h3 class="title">Laptop</h3>
         <h3 class="title-right">See All</h3>
@@ -138,6 +167,7 @@
           <div class="card-body text-align">
             <h5 class="card-title">Asus VivoBook</h5>
             <p class="card-text">This is another laptop that comes by a couple of different names and configurations.</p>
+            <h5>$999</h5>
           </div>
           <div class="card-footer text-align">
              <button class="buy-now-button">BUY NOW-></button>
@@ -145,9 +175,10 @@
         </div>
         <div class="card">
           <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-align">Razer Blade 15</h5>
+          <div class="card-body text-align">
+            <h5 class="card-title">Razer Blade 15</h5>
             <p class="card-text">The Razer Blade 15 gaming laptop is now available in two different configurations, the new Ethernet-equipped base model with dual storage</p>
+            <h5>$2799</h5>
           </div>
           <div class="card-footer text-align">
             <button class="buy-now-button">BUY NOW-></button>
@@ -155,9 +186,10 @@
         </div>
         <div class="card">
           <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-align">Xiaomi Mi Notebook Pro</h5>
+          <div class="card-body text-align">
+            <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
             <p class="card-text">The Xiaomi Mi Notebook Pro is the 3rd notebook from Xiaomi and the largest and heaviest at almost 2 kilos, but also the most powerful.</p>
+            <h5>$890</h5>
           </div>
           <div class="card-footer text-align">
             <button class="buy-now-button">BUY NOW-></button>
@@ -165,6 +197,38 @@
         </div>
       </div>
     </div>
+    <div class="container" id="overview">
+      <h1 class="text-align title-middle">
+        <span>Overview</span>
+      </h1>
+      <div class="row">
+        <div class="col-md-3 d-flex align-items-center ">
+          <img class="first" src="images/Categories-last/bag.png" alt="">
+        </div>
+        <div class="col-md-3">
+         <div class="d-flex align-items-center">
+           <img class="middle" src="images/Categories-last/perfume.png" alt="">
+         </div>
+         <div class="d-flex align-items-center">
+           <img class="last" src="images/Categories-last/shoe.png" alt="">
+         </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-center ">
+          <img class="img-fluid" src="images/Categories-last/pale-order.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="container banner-bg d-flex justify-content-center align-items-center" id="submit">
+      <div>
+      <h3>LET'S STAY IN TOUCH</h3>
+      <p>Get updates on sales,specials and more</p>
+      <input class="form-control" type="text">
+      <button class="buy-now-button">SUBMIT</button>
+      </div>
+    </div>
+    <footer>
+      <small>©2020 hot gadgets.All rights reserved. Sofia, Bulgaria</small>
+    </footer>
 
 
   

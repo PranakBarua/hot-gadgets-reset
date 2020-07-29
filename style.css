@@ -5,7 +5,7 @@
     width: 100px;
 }
 .carousel-indicators li{
-    background-color: tomato;
+    background-color: orange;
     height: 5px;
 }
 .banner-bg{
@@ -26,15 +26,60 @@
     text-align: center;
 }
 .card{
-    box-shadow: 5px 10px 20px gainsboro;
+    box-shadow: 5px 10px 20px gray;
+    border-radius: 5px;
 }
 .card-footer{
     border: none;
     background-color: white;
 }
-.title{
-    margin-bottom: 40px;
-}
 .title-right{
     color: tomato;
+    margin-bottom: 40px;
+}
+.cat1{
+    background-color: green;
+}
+.cat2{
+    background-color: indigo;
+}
+.cat3{
+    background-color: lightseagreen;
+}
+#category img{
+    height: 100px;
+}
+.cat1,.cat2,.cat3{
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.card img{
+    height: 310px;
+}
+.middle{
+    margin-bottom: 50px;
+}
+.first{
+}
+.first,.middle,.last{
+    padding:  40px;
+    box-shadow: 10px 20px 30px gray;
+    border-radius: 10px;
+}
+.title-middle{
+    margin-bottom: 70px;  
+}
+#overview span{
+    border-bottom: 5px solid orange;
+    border-radius: 5px;
+}
+#submit{
+    height: 300px;
+}
+#submit p{
+    color: gray;
+}
+footer{
+    text-align: center;
 }
