@@ -74,6 +74,9 @@
     border-bottom: 5px solid orange;
     border-radius: 5px;
 }
+.overview-img{
+    margin-left: 50px;
+}
 #submit{
     height: 300px;
 }
